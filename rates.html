@@ -1,21 +1,118 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="style/rates.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <meta name="robots" content="index, follow">
+
+<!-- HTML Meta Tags -->
+    <title>Robbie Lens - Photographe - Tarifs</title>
+    <meta name="description" content="Photographe depuis plus de 5 ans, j'exerce mon métier 
+    avec la passion qui m'anime : capturer l'essence de chaque instant.">
+
+
+<!-- Facebook Meta Tags -->
+<!--<meta property="og:url" content="https://nicolas-guerin888.github.io/Nina_Carducci_4_OpenClassrooms/"> -->    
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Robbie Lens - Photographe">
+    <meta property="og:description" content="Photographe depuis plus de 5 ans, j'exerce mon métier 
+    avec la passion qui m'anime : capturer l'essence de chaque instant.">
+<!--<meta property="og:image" content="https://nicolas-guerin888.github.io/Nina_Carducci_4_OpenClassrooms/assets/images/nina.webp"> -->    
+
+<!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta property="twitter:domain" content="nicolas-guerin888.github.io">
+<!--<meta property="twitter:url" content="https://nicolas-guerin888.github.io/Nina_Carducci_4_OpenClassrooms/">-->
+    <meta name="twitter:title" content="Robbie Lens - Photographe">
+    <meta name="twitter:description" content="Photographe depuis plus de 5 ans, j'exerce mon métier 
+    avec la passion qui m'anime : capturer l'essence de chaque instant.">
+<!--<meta name="twitter:image" content="https://nicolas-guerin888.github.io/Nina_Carducci_4_OpenClassrooms/assets/images/nina.webp">-->
+
+<!-- Meta Tags Generated via https://www.opengraph.xyz -->
+
 </head>
 <body>
-    <header>
-
+    <header class="header">
+        <div class="header__logo">
+            <img src="/assets/logo.png" alt="Logo du site Robbie Lens">
+        </div>
+        <nav class="header__nav">
+            <ul>
+                <li>Accueil</li>
+                <li>À propos</li>
+                <li>Tarifs</li>
+                <li>Portfolio</li>
+            </ul>
+        </nav>
     </header>
-    <main>
-        <section class="rates"></section>
+    <main class="rates">
+        <div class="rates__content">
+            <section class="rates__title-CTA">
+                <h1>Tarifs</h1>
+                <a href="" class="rates__CTA CTA">CONTACTEZ-MOI</a>
+            </section>
+            <section class="rates__cards">
+                <div class="rates__cards-card">
+                    <h3>Shooting photo</h3>
+                    <p>Pour capturer vos moments les plus précieux et garder un souvenir impérissable.
+                        Je me déplace en île-de-France pour réaliser vos photos                    
+                    </p>
+                    <h4>350€/demi journée</h4>
+                    <p class="text-mini-card">Matériel, déplacement inclus</p>
+                </div>
+                <div class="rates__cards-card">
+                    <h3>Retouches</h3>
+                    <p>Vous souhaitez retoucher vos photos pour un résultat professionnel ?
+                        Bénéficiez d'un rendu optimal pour vos publications                    
+                    </p>
+                    <h4>550€/demi journée</h4>
+                    <p class="text-mini-card">2 allez/retours par photo</p>
+                </div>
+                <div class="rates__cards-card">
+                    <h3>Album photos</h3>
+                    <p>
+                        Partagez avec vos proches et vos clients les photos des moments partagés ensemble à travers un album photo personnalisé                    
+                    </p>
+                    <h4>400€/demi journée</h4>
+                    <p class="text-mini-card">30 pages recto/verso</p>
+                </div>
+            </section>
+            <section class="rates__studioPro">
+                <h2>Studio pro</h2>
+                <table>
+                    <tr class="table-title">
+                        <td><h5>Désignation</h5></td>
+                        <td><h5>Quantité</h5></td>
+                        <td><h5>Prix</h5></td>
+                    </tr>
+                    <tr class="table-content">
+                        <td>Retouches photo <br> studio professionnel</td>
+                        <td>x 800 photos</td>
+                        <td>3200€/800 photos</td>
+                    </tr>
+                    <tr class="table-content">
+                        <td>Assistant photo <br> lumière professionnel</td>
+                        <td>x 2 sets studio</td>
+                        <td>1500€/journée</td>
+                    </tr>
+                </table>
+            </section>
+        </div>
     </main>
     <footer>
-
-    </footer>
-    
+        <div class="footer__logo">
+            <img src="/assets/logo.png" alt="Logo du site Robbie Lens">
+        </div>
+        <nav>
+            <ul>
+                <li><img src="/assets/instagram.png" alt="Logo d'Instagram"></li>
+                <li><img src="/assets/twitter.png" alt="Logo de Twitter"></li>
+            </ul>
+        </nav>
+    </footer>    
 </body>
 </html>

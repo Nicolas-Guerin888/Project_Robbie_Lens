@@ -1,0 +1,228 @@
+/* Style général */
+:root {
+    --main-color:#A5B4FC;
+    --main-bg-color:#1F2039;
+    --main-font: "Montserrat", sans-serif;
+    --p-fontstyle: "Manrope", sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    display: block;
+    text-decoration: none;
+}
+
+h1 {
+    font-family: var(--main-font);
+    font-weight: 400;
+    font-size: 55px;
+    color: var(--main-color);
+    max-width: 410px;
+}
+
+h2 {
+    font-family: var(--main-font);
+    font-weight: 400;
+    font-size: 35px;
+    color: var(--main-bg-color);
+}
+
+h3 {
+    font-family: var(--main-font);
+    font-weight: 400;
+    font-size: 20px;
+    color: var(--main-color);
+}
+
+h4 {
+    font-family: var(--main-font);
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--main-color);
+}
+
+h5 {
+    font-family: var(--main-font);
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+p {
+    font-family: var(--p-fontstyle);
+    font-weight: 400;
+    color: #f9f8ff;
+}
+
+.CTA {
+    font-family: var(--main-font);
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+    padding: 21px 38px;
+    border-radius: 50px;
+    cursor: pointer;
+    background: linear-gradient(180deg, rgba(142,134,181,1) 0%, rgba(172,174,237,1) 45%);
+}
+
+.CTA:active {
+    font-family: var(--main-font);
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 21px 38px;
+    border-radius: 50px;
+    cursor: pointer;
+    background: linear-gradient(180deg, rgba(105,100,132,1) 0%, rgba(135,136,186,1) 45%);
+}
+
+/*--------------------------------------------------*/
+/* ----------HEADER---------------------------------*/
+header {
+    height: 80px;
+    padding-left: 48px;
+    padding-right: 72px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    font-family: var(--p-fontstyle);
+    font-weight: 400;
+    font-size: 18px;
+    color: #242424;
+    background-color: #FFFFFF;
+}
+
+.header__logo {
+    cursor: pointer;
+}
+
+.header__nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+.header__nav li {
+    padding-left: 128px;
+    cursor: pointer;
+}
+/*--------------------------------------------------------------*/
+/*----------MAIN-----------------------------------------------*/
+.rates {
+    background-color: var(--main-bg-color);
+}
+
+.rates__content {
+    width: 73%;
+    margin: auto;
+    padding-top: 160px;
+    padding-bottom: 375px;
+}
+
+.rates__title-CTA {
+    margin-bottom: 88px;
+    padding-right: 16px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.rates__cards {
+    display: flex;
+    justify-content: space-between;
+}
+
+.rates__cards-card {
+    width: 26%;
+    height: 295px;
+    display: flex;
+    flex-direction: column;
+    border-right: solid 1px #A5B4FC;
+    border-bottom: solid 1px #A5B4FC;
+}
+
+.rates__cards-card h3 {
+    margin-top: 24px;
+}
+
+.rates__cards-card p {
+    margin-top: 32px;
+    width: 90%;
+    height: 96px;
+    font-size: 14px;
+}
+
+.rates__cards-card h4 {
+    margin-top: 40px;
+}
+
+.rates__cards-card .text-mini-card {
+    font-size: 10px;
+    margin-top: 24px;
+}
+
+.rates__studioPro {
+    margin-top: 96px;
+}
+
+.rates__studioPro h2 {
+    color: var(--main-color);
+    margin-bottom: 40px;
+}
+
+.rates__studioPro table { 
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.rates__studioPro td {
+    border: solid 1px #A5B4FC;
+}
+
+.rates__studioPro .table-title {
+    height: 40px;
+    text-align: center;
+}
+
+.rates__studioPro .table-content {
+    height: 145px;
+    font-family: var(--p-fontstyle);
+    font-weight: 400;
+    font-size: 14px;
+    color: #f9f8ff;
+    text-align: center;
+}
+
+
+
+/*----------FOOTER----------------------------------------------*/
+footer {
+    height: 88px;
+    margin-left: 48px;
+    margin-right: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer__logo img {
+    height: 30px;
+    cursor: pointer;
+}
+
+footer nav ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+
+footer nav ul li {
+    margin-left: 32px;
+    cursor: pointer;
+}
